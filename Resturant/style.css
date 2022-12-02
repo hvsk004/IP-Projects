@@ -38,11 +38,11 @@ body{
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 60px;
+    font-size: 300%;
     font-weight: 500;
 }
 .Description{
-    font-size: 40px;
+    font-size: 250%;
     font-style: italic;
     font-weight: 400;
     color: white;
@@ -69,8 +69,8 @@ body{
     font-weight: 500;
     color: #fff;
     padding: 10px 20px;
-    margin: 10px 20px;
-    font-size: 25px;
+    margin: 2% 0%;
+    font-size: 150%;
   
 }
 .navbar a:hover{
@@ -80,11 +80,11 @@ body{
 .container{
     width:100%;
     display:flex;  /* for display it's child div beside each other */
-    height: 100%;
+    height: auto;
   }
   .first-div,.second-div{
     width:50%;    /* for divide container into 2 equal divs  */ /*  for border around divs     */
-    height: 100%;
+    height: auto;
     text-align: center;
     border: 4px solid white;
     border-radius: 4%;
@@ -93,19 +93,19 @@ body{
     color: var(--main-color);
     font-weight: 400;
     margin: 40px 10px;
-    font-size: 60px;
+    font-size: 300%;
   }
   .DishoftheDay{
     color: var(--main-color);
     font-weight: 400; 
     margin: 40px 10px;
-    font-size: 60px;
+    font-size: 300%;
   }
   #div1h2{
     font-weight: 300;
     color: var(--main-color);
     margin: 50px 20px;
-    font-size: 50px;
+    font-size: 300%;
   }
   .items{
     font-weight: 300;
@@ -125,7 +125,7 @@ body{
 
   }
   .h3{
-    font-size: 40px;
+    font-size: 250%;
     margin: 550px 0px;
     padding: 60px 0px;
     color: var(--main-color);
@@ -134,7 +134,7 @@ body{
   
   }
   .nameofdish{
-    font-size: 40px;
+    font-size: 250%;
     margin: 30px 30px;
     color: var(--text-color);
     
@@ -146,19 +146,19 @@ body{
 .offer1,.offer2,.offer3{
     float: left;
     width: 33.33%;
-    padding: 50px;
+    padding: 20px;
     font-weight: 300;
     color: var(--text-color);
-    font-size: 40px;
+    font-size: 160%;
 }
 .co1,.co2,.freedel{
     width: 200px;
     height: 200px;
 }
 .Feedback{
-    margin: 250px 0px;
+    margin: 10px 0px;
     color: #ff702a;
-    font-size: 40px;
+    font-size: 250%;
     font-weight: 400;
 }
 .fb{
